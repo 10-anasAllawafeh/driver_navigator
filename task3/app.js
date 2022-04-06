@@ -16,3 +16,4 @@ function palindrome (string){
     return true
 }
 console.log(palindrome('ABCDCBA'));
+document.body.innerHTML=`the String is : ABCDCBA <br> Palindrome status is : ${palindrome('ABCDCBA')}`;

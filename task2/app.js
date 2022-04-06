@@ -10,3 +10,4 @@ function upperCase(str) {
  return array2.join(" ")   
 }
 console.log(upperCase(`the car drove fast`));
+document.body.innerHTML=`Before : the car drove fast <br> After: ${upperCase(`the car drove fast`)}`;
